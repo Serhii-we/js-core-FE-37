@@ -33,10 +33,10 @@ const myThirdVar = 'variable by const'
 //console.log(true)
 //console.log(typeof true)
 //console.log(false)
-console.log(typeof false)
+//console.log(typeof false)
 
-console.log(null)
-console.log(typeof null)
+//console.log(null)
+//console.log(typeof null)
 // сложные типы - объекты, массивы и функции
 // Приведение типов
 // к этим не приводяься данные
@@ -71,47 +71,47 @@ console.log(typeof null)
 //console.log(value, typeof value)
 //value = +value 
 //console.log(value, typeof value)
-value = true
-console.log(value, typeof value)
-value = Number(value)
-console.log(value, typeof value)
+//value = true
+//console.log(value, typeof value)
+//value = Number(value)
+//console.log(value, typeof value)
 
 // // boolean
 
-value = '' // false
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = ' ' // true
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = 'Sergei' // true
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = 1 // true
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = 0 // false console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
- value = NaN // false
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
- value = null // false
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = undefined // false
-console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
-value = false // false/ console.log(value, typeof value)
-value = Boolean(value)
-console.log(value, typeof value)
+//value = '' // false
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = ' ' // true
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = 'Sergei' // true
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = 1 // true
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = 0 // false console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = NaN // false
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = null // false
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = undefined // false
+//console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
+//value = false // false/ console.log(value, typeof value)
+//value = Boolean(value)
+//console.log(value, typeof value)
 
 // // 6 falsy values
 // console.log('false', '')
@@ -122,33 +122,33 @@ console.log(value, typeof value)
 // console.log('false', false)
 
 // взаимодействие с пользователем
-let response = alert("Hello")
+//let response = alert("Hello")
 // ok => undefined
-let response = confirm('Вам есть 18?')
+//let response = confirm('Вам есть 18?')
 // ok => true
 // cancel => false
-let response = prompt('Введите пожалуйста число')
-console.log(response)
+//let response = prompt('Введите пожалуйста число')
+//console.log(response)
 // ok => value
 // cancel => null
 // осн операторы (матем и сравнения)
-console.log(1 + 1)
-console.log(2 - 1)
-console.log(3 * 4)
-console.log(10 / 2)
-console.log(2 ** 3)
-console.log(10 % 4)
-console.log(2 > 4);
-console.log(2 >= 2);
+//console.log(1 + 1)
+//console.log(2 - 1)
+//console.log(3 * 4)
+//console.log(10 / 2)
+//console.log(2 ** 3)
+//console.log(10 % 4)
+//console.log(2 > 4);
+//console.log(2 >= 2);
 // // не строгое равенство
-console.log("'1' == 1", '1' == 1) //true
+//console.log("'1' == 1", '1' == 1) //true
 // //       string == number - тру, потому что
 // // приведение типов произошло
-console.log('true == 1', true == 1)
-console.log('false == 0', false == 0)
-console.log('"5" == 1', '5' == 1)
+//console.log('true == 1', true == 1)
+//console.log('false == 0', false == 0)
+//console.log('"5" == 1', '5' == 1)
 // // не строгое неравенство
-console.log("'1' != 1", '1' != 1) //false
+//console.log("'1' != 1", '1' != 1) //false
 // //       string == number - false, потому что
 // // приведение типов произошло и мы изменили результат на
 // // противоположный, благодаря !
@@ -178,33 +178,33 @@ let name = 'Sandra'
 let message = 'Hello, ' + name + 'We are glad to see you!'
 console.log(message)
 
-name = 'Anatolii'
-message = 'Hello, ' + name
-console.log(message)
+//name = 'Anatolii'
+//message = 'Hello, ' + name
+//console.log(message)
 
 // // `${}` - шаблонная строка и интерполяция
 
-message = `Hi, ${name}!`
-console.log(message)
+//message = `Hi, ${name}!`
+//console.log(message)
 
-toLowerCase() & toUpperCase() 
-let nameInDB = 'hrevtsova'
-console.log(nameInDB.toUpperCase())
+//toLowerCase() & toUpperCase() 
+//let nameInDB = 'hrevtsova'
+//console.log(nameInDB.toUpperCase())
 
-let lastName = 'HREVT SOVA' 
-console.log(lastName.toLowerCase())
+//let lastName = 'HREVT SOVA' 
+//console.log(lastName.toLowerCase())
 // // length
-console.log(lastName.length)
+//console.log(lastName.length)
 
 // // includes() & indexOf()
-const myLove = 'I Love JavaScript!!!'
-console.log(myLove)
+//const myLove = 'I Love JavaScript!!!'
+//console.log(myLove)
 
- console.log(myLove.includes('Love')) // true
- console.log(myLove.includes('love')) // false
+//console.log(myLove.includes('Love')) // true
+//console.log(myLove.includes('love')) // false
 
- console.log(myLove.indexOf('Love')) // 2 - index
- console.log(myLove.indexOf('love')) // -1 - если не нашел совпадения
+//console.log(myLove.indexOf('Love')) // 2 - index
+//console.log(myLove.indexOf('love')) // -1 - если не нашел совпадения
 
 // числа
 // parseInt()
