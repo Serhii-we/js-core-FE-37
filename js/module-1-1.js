@@ -174,11 +174,11 @@ console.log('Hello')
 console.log(`Hello`)
 
 // // concat
-let name = 'Sandra'
-let message = 'Hello, ' + name + 'We are glad to see you!'
+let name = 'Sergei '
+let message = 'Hello,' + name + 'We are glad to see you!'
 console.log(message)
 
-//name = 'Anatolii'
+//name = 'Anatolii '
 //message = 'Hello, ' + name
 //console.log(message)
 
@@ -215,7 +215,7 @@ weight = parseFloat(weight)
 console.log(weight, typeof weight)
 
 let price = 30
- let total = weight * priceconsole.log('total', total)
+let total = weight * priceconsole.log('total', total)
 
 // 0.1+0.2
 console.log(0.2 + 0.4)
